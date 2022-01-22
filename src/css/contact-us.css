@@ -1,0 +1,120 @@
+#contact-us {
+  height: 1200px;
+  padding-top: 240px;
+  background-image: url("../images/contact_us_bg.png");
+  background-position: center;
+  background-size: cover;
+}
+.contact-info-form {
+  display: flex;
+  justify-content: space-around;
+  /* background: #fff; */
+  padding: 30px;
+  height: 500px;
+  align-items: center;
+}
+.infoItem {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  border-bottom: 2px solid #d571f6;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+.infoItem img {
+  margin: 10px 15px 10px 0px;
+}
+#contact-form {
+  text-align: center;
+}
+#contact-form ul {
+  list-style-type: none;
+  padding: 0;
+}
+#contact-form ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.purple {
+  border: 3px solid #d571f66e;
+  border-radius: 13px;
+  /* background: transparent; */
+  padding: 10px 30px 10px 30px;
+}
+#contact-form button {
+  background: #d571f6;
+  color: #fff;
+}
+#contact-form button:hover {
+  background: #ffffff;
+  color: #d571f6;
+}
+#contact-form input,
+#contact-form textarea {
+  width: 600px;
+  outline: #d571f6;
+}
+#contact-form textarea {
+  height: 200px;
+}
+label {
+  font-size: 30px;
+}
+.response {
+  background: #00ff7e;
+  color: #fff;
+  border-radius: 25px;
+  position: absolute;
+  width: 300px;
+  padding: 20px 40px 20px 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 460px;
+}
+@media screen and (max-width: 1200px) {
+  #contact-form input,
+  #contact-form textarea {
+    width: 450px;
+  }
+  .infoItem {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .contact-info-form {
+    justify-content: space-between;
+    padding: 10px;
+  }
+  #contact-form input,
+  #contact-form textarea {
+    width: 350px;
+  }
+  .infoItem {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact-info-form {
+    flex-direction: column-reverse;
+    height: 800px;
+  }
+  #contact-us {
+    padding-top: 70px;
+  }
+  .map-class {
+    height: 330px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  #contact-form input,
+  #contact-form textarea {
+    width: 300px;
+  }
+  .infoItem {
+    width: 300px;
+    font-size: 10px;
+  }
+}

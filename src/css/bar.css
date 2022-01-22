@@ -1,0 +1,10 @@
+.bar {
+  background: url("../images/bar-bg.jpg");
+  padding: 50px;
+}
+.bar h1 {
+  text-align: center;
+}
+.bar .slick-slide img {
+  padding: 10px;
+}

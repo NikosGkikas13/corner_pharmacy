@@ -1,0 +1,177 @@
+.firstPanel {
+  width: 100%;
+  height: 800px;
+  /* display: flex;
+  align-items: end; */
+}
+.homepage_info {
+  width: 1000px;
+  background: white;
+  color: #00ffb8;
+  margin: 0 auto;
+  text-align: center;
+  height: 388px;
+  margin-top: -180px;
+}
+.homepage_info h1 {
+  padding-top: 20px;
+}
+.how_to_help {
+  display: flex;
+  justify-content: space-around;
+  height: 280px;
+}
+.opening_hours {
+  background: #00ffb8;
+  width: 50%;
+  color: #fff;
+}
+.ask_doctor {
+  background: #fff;
+  width: 50%;
+  display: flex;
+}
+table {
+  width: 100%;
+  font-size: 21px;
+  height: 245px;
+}
+td {
+  border-bottom: 2px solid white;
+}
+h2 {
+  padding: 0;
+  margin: 5px;
+}
+.ask_link {
+  color: #ff0000;
+  font-size: 25px;
+  text-decoration: underline;
+}
+.ask_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about_us {
+  height: 200px;
+  background: #d571f6;
+}
+.about_us h2 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  width: 1000px;
+}
+.services {
+  height: 650px;
+  text-align: center;
+  padding: 20px;
+  background: #3ee5be;
+}
+.products {
+  height: 820px;
+  background-size: 1500px;
+  background-position: center;
+}
+.pr_container {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+}
+@media screen and (max-width: 1250px) {
+  .services {
+    height: 700px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+  .pr_container {
+    width: 100%;
+  }
+  .about_us h2,
+  .homepage_info {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .ask_doctor {
+    display: block;
+  }
+  .ask_doctor img {
+    width: 210px;
+  }
+  .services {
+    height: 650px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .homepage_info h1 {
+    padding-top: 20px;
+    font-size: 27px;
+  }
+  .homepage_info p {
+    margin-bottom: 10px;
+  }
+  .footer-div {
+    width: 240px;
+  }
+  .firstPanel {
+    width: 100%;
+    height: 650px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .ask_div,
+  .ask_link {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .homepage_info h1 {
+    padding-top: 20px;
+    font-size: 21px;
+  }
+  .ask_doctor img {
+    width: 180px;
+  }
+  .pr_container {
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+  }
+
+  .small_slider .single_product img {
+    width: 140px;
+    height: 110px;
+  }
+
+  .services {
+    height: 590px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .homepage_info h1 {
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  table {
+    font-size: 15px;
+    height: 220px;
+  }
+  .ask_doctor img {
+    width: 130px;
+  }
+  .ask_div,
+  .ask_link {
+    font-size: 17px;
+  }
+  .pr_container > h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+}

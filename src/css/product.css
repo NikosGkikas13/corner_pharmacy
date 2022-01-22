@@ -1,0 +1,27 @@
+.single_product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  article h1 {
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .single_product h2 {
+    text-align: center;
+  }
+  .service_icon {
+    width: 60px;
+  }
+  .products {
+    height: 700px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .products {
+    height: 570px;
+  }
+}

@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Firamono";
+  src: url("../fonts/firamono-regular-webfont.woff");
+}
+
+.App {
+  max-width: 1500px;
+  margin: 0 auto;
+  background: #e3e3e3;
+}
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+p,
+table,
+label {
+  font-family: monospace;
+}

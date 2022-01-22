@@ -1,0 +1,244 @@
+.about-comp {
+  padding-top: 130px;
+}
+.counters_div {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 255, 184, 1) 0%,
+    rgba(213, 113, 246, 1) 100%
+  );
+  color: #fff;
+}
+.counter {
+  text-align: center;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 0px 20px 0px 20px;
+}
+.why_us {
+  display: flex;
+  justify-content: space-around;
+  height: 480px;
+  align-items: center;
+  background: url("../images/why-us.jpg") center -150px;
+  background-size: 100%;
+}
+.why_us_text {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.why_us_text h1 {
+  font-size: 50px;
+}
+.why_us_comp_div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+h3 {
+  margin: 0;
+}
+.why_us_comp {
+  width: 280px;
+  margin: 10px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.why_us_comp img:hover {
+  transform: scale(1.4);
+  margin-bottom: 10px;
+  transition: 500ms;
+}
+.white {
+  border: 1px solid white;
+  padding: 25px;
+  color: #fff;
+}
+.main-div {
+  background: url("../images/about-us-main.png") -110px center;
+  height: 800px;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  padding: 100px;
+}
+.main-text {
+  width: 500px;
+}
+.why_us_comp h3,
+.why_us_text h1 {
+  color: #f75b00;
+}
+@media screen and (max-width: 1200px) {
+  .main-div {
+    background: url("../images/about-us-main.png") -260px center;
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    padding: 60px;
+  }
+  .why_us_comp_div {
+    width: 450px;
+  }
+  .why_us_comp {
+    width: 210px;
+    margin: 5px;
+    height: 180px;
+  }
+  .why_us_text {
+    width: 450px;
+  }
+  .why_us_text h1 {
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+  .why_us_comp h3 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .about-comp {
+    padding-top: 0px;
+  }
+  .main-div {
+    background: url("../images/about-us-main.png") center 134px;
+    height: 720px;
+    padding: 100px 10px 100px 100px;
+    background-repeat: no-repeat;
+    background-size: 1162px;
+  }
+  .main-text {
+    width: 360px;
+  }
+  .main-text h1 {
+    font-size: 25px;
+  }
+  .main-text {
+    font-size: 14px;
+    margin-top: 50px;
+  }
+  .why_us {
+    flex-direction: column;
+    height: 640px;
+    align-items: center;
+    background: url("../images/why-us.jpg") center;
+    background-size: cover;
+  }
+  .why_us_comp_div {
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .counter {
+    text-align: center;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 0px 10px 0px 10px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-div {
+    background: url("../images/about-us-main.png") center 40px;
+    height: 720px;
+    padding: 100px 10px 100px 100px;
+    background-repeat: no-repeat;
+    background-size: 1300px;
+  }
+  .main-text {
+    font-size: 14px;
+    margin-top: -30px;
+  }
+  .main-text {
+    width: 340px;
+  }
+  .why_us_comp {
+    padding: 0px;
+  }
+  .counters_div {
+    padding: 40px;
+  }
+  .counter {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-div {
+    background: url("../images/about-us-main.png") center 40px;
+    height: 540px;
+    padding: 100px 10px 100px 100px;
+    background-repeat: no-repeat;
+    background-size: 1130px;
+  }
+  .main-text h1 {
+    font-size: 20px;
+    margin-bottom: -12px;
+  }
+  .main-text {
+    width: 280px;
+  }
+  .main-text {
+    font-size: 13px;
+    margin-top: -53px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-text h1 {
+    font-size: 15px;
+  }
+  .main-div {
+    background: url("../images/about-us-main.png") center 40px;
+    height: 440px;
+    padding: 100px 10px 100px 100px;
+    background-repeat: no-repeat;
+    background-size: 810px;
+  }
+  .main-text {
+    font-size: 11px;
+    margin-top: -53px;
+  }
+  .main-text {
+    width: 180px;
+  }
+  .why_us_text {
+    width: 300px;
+  }
+  .white {
+    border: 1px solid white;
+    padding: 5px;
+    color: #fff;
+  }
+  .why_us_text h1 {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .why_us_comp_div {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .why_us_comp {
+    width: 145px;
+    margin: 5px;
+    height: 180px;
+  }
+  .why_us {
+    height: 840px;
+  }
+  .counter {
+    font-size: 9px;
+  }
+  .bar .slick-slide img {
+    padding: 3px;
+  }
+}
