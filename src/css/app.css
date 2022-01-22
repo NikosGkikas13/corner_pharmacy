@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "Firamono";
-  src: url("../fonts/firamono-regular-webfont.woff");
-}
-
 .App {
   max-width: 1500px;
   margin: 0 auto;

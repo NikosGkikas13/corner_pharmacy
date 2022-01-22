@@ -27,7 +27,7 @@ const Bar = (props) => {
       <Slider
         slidesToShow={6}
         arrows={false}
-        autoplay={false}
+        autoplay={true}
         autoplaySpeed={1500}
         pauseOnFocus={true}
         pauseOnHover={true}

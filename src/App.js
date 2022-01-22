@@ -8,8 +8,7 @@ import ContactUs from "./components/ContactUs";
 import AboutComp from "./components/AboutComp";
 import Bar from "./components/Bar";
 import { DATAEN, DATAGR } from "./data";
-import { useState, useContext } from "react";
-import { createContext } from "react/cjs/react.development";
+import { useState, useContext, createContext } from "react";
 export const LangContext = createContext();
 
 function App() {
