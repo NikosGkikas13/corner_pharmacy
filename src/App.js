@@ -9,6 +9,7 @@ import AboutComp from "./components/AboutComp";
 import Bar from "./components/Bar";
 import { DATAEN, DATAGR } from "./data";
 import { useState, useContext, createContext } from "react";
+import ScrollToTop from "./components/ScrollToTop";
 export const LangContext = createContext();
 
 function App() {
@@ -26,15 +27,17 @@ function App() {
     <div className="App">
       <LangContext.Provider value={lang}>
         <Router>
-          <Nav handleLang={handleLang} />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about-us" exact element={<AboutComp />} />
-            <Route path="/contact-us" exact element={<ContactUs />} />
-            <Route path="/*" element={<h1>Page not found</h1>} />
-          </Routes>
-          <Bar />
-          <Footer data={lang[4].footer} />
+          <ScrollToTop>
+            <Nav handleLang={handleLang} />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about-us" exact element={<AboutComp />} />
+              <Route path="/contact-us" exact element={<ContactUs />} />
+              <Route path="/*" element={<h1>Page not found</h1>} />
+            </Routes>
+            <Bar />
+            <Footer data={lang[4].footer} />
+          </ScrollToTop>
         </Router>
       </LangContext.Provider>
     </div>

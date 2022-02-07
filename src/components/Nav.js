@@ -97,7 +97,11 @@ const Nav = (props) => {
           <div className="mobileLinkDiv">
             {LangValue[6].nav.map((item) => {
               return (
-                <Link className="mobileLink link " to={item.link}>
+                <Link
+                  className="mobileLink link "
+                  to={item.link}
+                  onClick={() => setShowMenu(!showMenu)}
+                >
                   {item.name}
                 </Link>
               );
@@ -129,21 +133,21 @@ const Nav = (props) => {
           <img
             className="navIcon address"
             src={address}
-            alt="Logo"
+            alt=""
             onClick={() => mobInfo(lang[3].contact.info[0].text)}
           />
           <p>{lang[3].contact.info[0].text}</p>
           <img
             className="navIcon email"
             src={email}
-            alt="Logo"
+            alt=""
             onClick={() => mobInfo("info.cornerpharmacy@gmail.com")}
           />
           <p>info.cornerpharmacy@gmail.com</p>
           <img
             className="navIcon tel"
             src={tel}
-            alt="Logo"
+            alt=""
             onClick={() => mobInfo("22940 - 50019")}
           />
           <p>22940-50019</p>

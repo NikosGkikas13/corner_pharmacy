@@ -1,6 +1,9 @@
 .about-comp {
   padding-top: 130px;
 }
+.main-text p {
+  font-size: 17px;
+}
 .counters_div {
   display: flex;
   justify-content: space-evenly;
@@ -34,7 +37,7 @@
   justify-content: center;
 }
 .why_us_text h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 .why_us_comp_div {
   display: flex;
@@ -120,6 +123,9 @@ h3 {
   .main-text {
     width: 360px;
   }
+  .main-text p {
+    font-size: 14px;
+  }
   .main-text h1 {
     font-size: 25px;
   }
@@ -191,6 +197,9 @@ h3 {
     font-size: 13px;
     margin-top: -53px;
   }
+  .main-text p {
+    font-size: 13px;
+  }
 }
 @media screen and (max-width: 480px) {
   .main-text h1 {
@@ -240,5 +249,8 @@ h3 {
   }
   .bar .slick-slide img {
     padding: 3px;
+  }
+  .main-text p {
+    font-size: 9px;
   }
 }

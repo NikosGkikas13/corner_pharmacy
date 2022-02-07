@@ -55,6 +55,30 @@ footer {
 }
 @media screen and (max-width: 480px) {
   .footer_div {
-    width: 130px;
+    width: 100%;
+    padding: 0px;
+  }
+  .footer_div:first-child {
+    margin-bottom: 10px;
+  }
+  .footer_div:last-child h1 {
+    display: none;
+  }
+  .footer_div:last-child {
+    width: 250px;
+  }
+  .footer_div:nth-child(2) {
+    border-top: 1px solid white;
+    padding-top: 5px;
+  }
+  .footer_div:nth-child(2) h1 {
+    display: none;
+  }
+  footer {
+    flex-wrap: wrap;
+    height: 310px;
+  }
+  .icons {
+    flex-direction: row;
   }
 }

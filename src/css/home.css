@@ -34,7 +34,7 @@
 table {
   width: 100%;
   font-size: 21px;
-  height: 245px;
+  height: 250px;
 }
 td {
   border-bottom: 2px solid white;
@@ -160,8 +160,8 @@ h2 {
     font-size: 15px;
   }
   table {
-    font-size: 15px;
-    height: 220px;
+    font-size: 13px;
+    height: 230px;
   }
   .ask_doctor img {
     width: 130px;
