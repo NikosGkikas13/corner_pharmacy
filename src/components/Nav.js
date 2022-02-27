@@ -38,14 +38,6 @@ const Nav = (props) => {
     const { lang, handleLang } = props;
     return (
       <div className="fixed">
-        <div className="navInfo">
-          <img className="navIcon address" src={address} alt="Logo" />
-          {lang[3].contact.info[0].text}
-          <img className="navIcon email" src={email} alt="Logo" />
-          info.cornerpharmacy@gmail.com
-          <img className="navIcon tel" src={tel} alt="Logo" />
-          22940-50019
-        </div>
         <div className="nav">
           <Link to="/">
             <img className="logo" src={logo} alt="Logo" />

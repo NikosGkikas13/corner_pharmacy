@@ -25,7 +25,7 @@ const Bar = (props) => {
   return (
     <div className="bar">
       <Slider
-        slidesToShow={6}
+        slidesToShow={9}
         arrows={false}
         autoplay={true}
         autoplaySpeed={1500}

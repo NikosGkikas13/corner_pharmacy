@@ -1,8 +1,5 @@
-.firstPanel {
-  width: 100%;
-  height: 800px;
-  /* display: flex;
-  align-items: end; */
+.homepage {
+  padding-top: 50px;
 }
 .homepage_info {
   width: 1000px;
@@ -110,6 +107,9 @@ h2 {
   }
 }
 @media screen and (max-width: 768px) {
+  .homepage {
+    padding-top: 0px;
+  }
   .homepage_info h1 {
     padding-top: 20px;
     font-size: 27px;
@@ -122,7 +122,6 @@ h2 {
   }
   .firstPanel {
     width: 100%;
-    height: 650px;
   }
 }
 @media screen and (max-width: 600px) {

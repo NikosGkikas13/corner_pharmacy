@@ -35,7 +35,6 @@ function App() {
               <Route path="/contact-us" exact element={<ContactUs />} />
               <Route path="/*" element={<h1>Page not found</h1>} />
             </Routes>
-            <Bar />
             <Footer data={lang[4].footer} />
           </ScrollToTop>
         </Router>

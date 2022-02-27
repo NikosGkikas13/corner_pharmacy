@@ -11,8 +11,13 @@ import cosmetics from "../images/cosmetics.jpg";
 import glasses from "../images/glasses.jpg";
 import shoes from "../images/shoes.jpg";
 import bags from "../images/bags.jpg";
+import slider1 from "../images/homepage_slider_images/home-slider1.jpg";
+import slider2 from "../images/homepage_slider_images/home-slider2.jpg";
+import slider3 from "../images/homepage_slider_images/home-slider3.jpg";
+import slider4 from "../images/homepage_slider_images/home-slider4.jpg";
 const homeDataEN = [
   {
+    homeSlider: [slider1, slider2, slider3],
     headline: "WELCOME TO CORNER PHARMACY",
     paragraph: "How can we help you?",
     open: "Opening Hours",
@@ -89,6 +94,7 @@ const productsEN = [
 ];
 const homeDataGR = [
   {
+    homeSlider: [slider1, slider2, slider3],
     headline: "ΚΑΛΩΣΗΡΘΑΤΕ ΣΤΟ CORNER PHARMACY",
     paragraph: "Πως μπορούμε να σας εξυπηρετήσουμε;",
     open: "Ωράριο Λειουργίας",
