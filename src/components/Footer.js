@@ -1,16 +1,12 @@
 import React from "react";
-import logo from "./../images/logo.png";
+import logo from "./../images/corner-pharmacy-logo.png";
 import "../css/footer.css";
 
 const Footer = (props) => {
   const Logo = (props) => {
     return (
       <div className="footer_div">
-        <img
-          style={{ width: "120px", marginTop: "-25px" }}
-          src={logo}
-          alt="logo"
-        />
+        <img style={{ width: "160px" }} src={logo} alt="logo" />
         <h2>{props.data.title}</h2>
         <h3>{props.data.copyrights}</h3>
       </div>

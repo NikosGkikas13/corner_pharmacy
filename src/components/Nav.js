@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from "react";
 import navData from "../data/navData";
 import { Link } from "react-router-dom";
-import logo from "./../images/logo.png";
+import logo from "./../images/corner-pharmacy-logo.png";
 import email from "./../images/email.png";
 import address from "./../images/address.png";
 import tel from "./../images/telephone.png";

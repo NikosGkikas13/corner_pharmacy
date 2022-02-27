@@ -2,16 +2,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #00ffb8;
+  background: linear-gradient(
+    0deg,
+    rgba(162, 93, 148, 1) 49%,
+    rgba(94, 203, 202, 1) 50%
+  );
 }
 .logo {
-  width: 100px;
+  width: 130px;
 }
 .fixed {
   position: fixed;
   width: 1500px;
-  background: #d571f6;
+  background: #a25d94;
   z-index: 100;
+}
+.nav > a {
+  height: 56px;
 }
 .desktopLink {
   text-decoration: none;
@@ -27,6 +34,7 @@
   display: flex;
   align-items: center;
   justify-content: end;
+  display: none;
 }
 .navIcon {
   width: 30px;
